@@ -1,0 +1,375 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header { 
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+.header a { 
+    color: gray;
+}
+.header_teg a { 
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sadns-serif;
+
+}
+
+ .create { 
+    text-decoration: underline;
+ }
+.home :hover { 
+color: beige;
+}
+.header_coffee {
+    padding-left: 30px;
+}
+.header_teg { 
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+.header_teg a { 
+    color: gray;
+    font-size: 15px;
+}
+.header :hover { 
+    color: black;
+}
+
+
+
+.img { 
+   border: 2px solid;
+   background-image: url("./home/desktop/image-hero-coffeepress.jpg");
+  background-repeat: no-repeat;
+   background-size: cover;
+   margin: 70px; 
+   border-radius: 10px;
+   margin-top: -7px;
+   padding: 70px;
+   margin-bottom:200px;
+}
+.title { 
+    color: white;
+    font-size:70px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.artisan { 
+    color: gray;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.btn { 
+    padding: 15px 31px;
+    background-color: teal;
+    border-radius: 6px;
+    color:white;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gran { 
+    width: 250px;
+    height: 200px;
+}
+.planalto { 
+    width: 250px;
+    height: 200px;
+}
+.piccollo { 
+    width: 250px;
+    height: 200px;
+}
+.danche { 
+    width: 250px;
+    height: 200px;
+}
+.img_paket {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.img_gran { 
+    width: 250px;
+}
+.img_planalto { 
+    width: 250px;
+}
+.img_piccollo  { 
+    width: 250px;
+}
+.img_danche { 
+    width: 250px;
+}
+.box_big { 
+background-color:rgb(35, 35, 43);
+    height: 600px;
+    width: 1300px;
+    margin-left: 110px;
+    border-radius: 10px;
+    margin-bottom: 400px;
+
+}
+.title_color { 
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+   
+}
+.p_color { 
+
+width: 538px;
+line-height: 26px;
+text-align: center;
+margin-bottom: 86px;
+margin-left: 400px;
+color: white;
+}
+.brave { 
+    text-align: center;
+    align-items: center;
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+.box_teal { 
+    background-color: teal;
+    width: 350px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 48px;
+    margin-bottom: -251px;
+    border-radius: 8px;
+}
+.iconca { 
+    margin-bottom: 70px;
+}
+.box_big_teal { 
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+
+} 
+  
+.ring { 
+    width: 760px;
+    height: 1px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 82px;  
+    
+}
+.cta_title { 
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 70px;
+}
+.ring_box { 
+    width: 31px;
+    height: 31px;
+    border: 1px solid teal;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.text { 
+
+    width: 280px;
+    height: 350px
+}
+.text_two { 
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.comment { 
+    margin-left: 200px;
+}
+.btn_plan { 
+    padding: 15px 31px;
+    background-color: teal;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Fraunces';
+    margin-bottom: 70px;
+}
+
+.footer { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; 
+    justify-content: space-around;
+    background-color:rgb(35, 35, 43) ;
+    width: 1300px;
+    height: 130px;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.icon_facebook  { 
+
+display: flex;
+gap: 20px;
+}
+.icon_facebook a {
+    color: gray;
+}
+.fa-brands { 
+    font-size: 30px;
+    color: white;
+}
+.icon_twitter { 
+    display: flex;
+    gap: 20px;
+}
+
+.section {
+    border: 2px solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 70px; 
+    border-radius: 10px;
+    margin-top: 7px;
+    padding: 100px;
+    margin-bottom:200px;
+    background-image: url("./about/desktop/image-hero-whitecup.jpg");
+    color: white ;
+    width: 1400px;
+    height: 500px;
+
+} 
+
+.wrapper { 
+    width: 500px;
+    font-size: 20px;
+    color: var(--light-cream-bg);;
+}
+.about_img { 
+    display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.midnight { 
+    background-color: rgb(35, 35, 43);
+    height: 450px;
+    width: 1200px;
+    margin-left: 170px;
+    color: white;
+  padding: 100px;
+  padding-top: 20px;
+
+}
+.main_content { 
+    width: 450px;
+    margin-top: 40px;
+}
+.quality { 
+   font-size: 40px;
+  
+}
+.sidebar { 
+margin-top: 100px;
+}
+.imgSection { 
+    margin-top: -400px;
+    margin-left: 540px;
+    border-radius: 10px;
+}
+
+.SubHeading { 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+ }
+.Alcaston {
+    width: 100px;
+    color: grey;
+}
+.Alcaston1 { 
+    width: 150px;
+    color: grey;
+}
+.title_canada { 
+    margin-left: 170px;
+    color: grey;
+}
+.img_coffee { 
+    width: 1200px;
+    height: 400px;
+    background-image: url("./plan/desktop/image-hero-blackcup.jpg");
+    margin-left: 150px;
+    border-radius: 10px;
+    color: white;
+    padding: 90px;
+}
+.MainHeading { 
+    background-color:rgb(35, 35, 43);
+    height: 600px;
+    width: 1300px;
+    margin-left: 110px;
+    border-radius: 10px;
+    margin-bottom: 400px;
+    margin-top: 100px;
+    padding: 100px;
+    padding-top: 10px;
+
+}
+.ring1 { 
+    width: 760px;
+    height: 1px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+      
+}
+.ring_box2 { 
+    width: 31px;
+    height: 31px;
+    border: 1px solid teal;
+    border-radius: 50%;
+}
+.Select { 
+    color: white;
+    margin-top: -50px;
+}
+.choose { 
+    display: flex;
+    gap: 50px;
+}
+.footer1 { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; 
+    justify-content: space-around;
+    background-color:rgb(35, 35, 43) ;
+    width: 1300px;
+    height: 130px;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: -250px;
+}
+.smuzy { 
+    margin-top: 100px;
+}
